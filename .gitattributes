@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings
 * text=auto
+
+# Explicit text files
+*.cpp text
+*.h text
+*.ui text
+*.qrc text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.exe binary
+*.dll binary
